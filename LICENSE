@@ -1,0 +1,25 @@
+Espie License v1.0  (idk gng 😭✌️)
+==================
+
+Copyright (c) 2026 Aharshi
+
+Permission is hereby granted to view, use, and compile the source code of Espie
+for personal or educational purposes.
+
+Redistribution, modification, or creation of derivative works (including forks)
+is NOT permitted without prior written permission from the author.
+
+You may:
+- Download and run the provided binary files on supported ESP32 hardware.
+- Study the source code for learning purposes.
+- Share links to this repository.
+
+You may NOT:
+- Fork this repository without explicit permission.
+- Redistribute modified versions of the source code.
+- Use the source code in commercial projects without permission.
+- Decompile the bin to get the original Bin file.
+To request permission for forking or redistribution, please contact the author
+via GitHub.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
