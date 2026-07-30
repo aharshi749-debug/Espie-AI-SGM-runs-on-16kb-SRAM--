@@ -67,7 +67,7 @@ Step 5: There will be a box , change it to 0x3A0000 , like in the image
 
 <img width="751" height="453" alt="image" src="https://github.com/user-attachments/assets/67a7fd2a-9058-4484-b140-4d36dcb09163" />
 
-Step 6: Once you have it ready, click on "Choose File" and select the bin file you just downloaded
+Step 6: Once you have it ready, click on "Choose File" and select the bin file you just got from training Espie
 
 Step 7: Click the big blue button that says "PROGRAM" to flash it
 
