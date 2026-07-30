@@ -1,4 +1,4 @@
-# Espie-AI-LLM-SGM-runs-on-1kb-
+# Espie-AI-SGM-runs-on-16kb-
 
 A small AI SGM model meant for small ESP32 Devices, Conceptually works like a LLM, but natively for an ESP32
 
