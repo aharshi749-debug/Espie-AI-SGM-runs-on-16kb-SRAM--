@@ -20,7 +20,7 @@ Because Since Espie runs on a literal microcontroller, this proves that modern A
 
 because Espie runs on
 
--1kb of ram (16 is allocated as a buffer but 1kb is estimated usage)
+-16 KB SRAM Arena and actual 1.4kb being used
 
 -No water cooling
 
@@ -134,6 +134,10 @@ Compiler/toolchain: Arduino IDE as the IDE i used, then using Espressif's ESP32 
 Tokens Per Second (TPS):  15 to 30 tokens per second atleast
 
 flash consumption: the entire thing (ino plus the trained bin) is around 1.7~ Mb
+
+Reserved arena: 16 KB
+
+Measured working usage: ~1.4 KB
 
 
 Average generation: May vary on ESP32 chip
