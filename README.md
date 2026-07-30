@@ -87,7 +87,22 @@ No cooling
 
 and its extremely efficient!
 
+# How Espie actually works
 
+internally its
+Input
+ ↓
+Parser
+ ↓
+Intent / context
+ ↓
+Script selection/generation
+ ↓
+Small model inference
+ ↓
+Sampling
+ ↓
+Output  (I HATE COPY AND PASTING ↓ )
 
 # Credits to
 
@@ -104,12 +119,27 @@ also i will make a few files that are named
 # Benchmarks and some actual technical info
 
 ESP32-S3
+
 Model flash:       1.6 MB
+
+
 Peak SRAM:          1.4 KB
+
 Context:            256 bytes
+
+reserved SRAM: 16KB 
+
+Compiler/toolchain: Arduino IDE as the IDE i used, then using Espressif's ESP32 core 2.0.11
+
+Tokens Per Second (TPS):  15 to 30 tokens per second atleast
+
+flash consumption: the entire thing (ino plus the trained bin) is around 1.7~ Mb
+
+
 Average generation: May vary on ESP32 chip
 and a note again, it says 16kb in the code but if you actually see the runtime (thats not counting arduino ide's extra bloat such as FreeRTOS, and a few other stuff) then its 
 1.4KB of SRAM notes
+the direct ESP32 model i used for this test was     LILY GO T DISPLAY S3 
 
 # Files and stuff you need if you dont need Bloat
 
