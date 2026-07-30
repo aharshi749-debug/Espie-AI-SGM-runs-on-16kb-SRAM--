@@ -1,10 +1,10 @@
 # Espie-AI-LLM-SGM-runs-on-1kb-
 
-A small AI SGM model meant for small ESP32 Devices, works like a modern LLM but natively for an ESP32
+A small AI SGM model meant for small ESP32 Devices, Conceptually works like a LLM, but natively for an ESP32
 
 # What is Espie?
 
-Espie is a small AI SGM where it is like a AI LLM but runs completely locally on a ESP32 with no api or external files 
+Espie is a small AI SGM where it is like a AI but runs completely locally on a ESP32 with no api or external files (meaning no Openai, groq or any of that is used at all)
 
 # Why this matters?
 
@@ -99,6 +99,17 @@ and its extremely efficient!
 I am sorry if its not enough at all, because i am 12 and like i am busy for like....my entire day because i am releasing a new OS soon so like i am sorry if it aint enough, but if you got anything to say, go ahead! go and say it out!
 also i will make a few files that are named
 "NOTES.txt" that will contain my notes for the full thing on a AI SGM so thanks for cooperating guys (or whoever is reading this)
+
+
+# Benchmarks and some actual technical info
+
+ESP32-S3
+Model flash:       1.6 MB
+Peak SRAM:          1.4 KB
+Context:            256 bytes
+Average generation: May vary on ESP32 chip
+and a note again, it says 16kb in the code but if you actually see the runtime (thats not counting arduino ide's extra bloat such as FreeRTOS, and a few other stuff) then its 
+1.4KB of SRAM notes
 
 # Files and stuff you need if you dont need Bloat
 
