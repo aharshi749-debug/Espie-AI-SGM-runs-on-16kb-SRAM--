@@ -52,13 +52,13 @@ the only thing what makes Espie similar to an LLM , is that it just uses tempera
 
 # How to setup Espie
 
-Step 1: First download the bin file named "espie_1_6_v2.bin"
+Step 1: Train Espie by downloading the py and make sure having PyTorch installed
 
 Step 2: Copy the ino file into arduino ide
 
 Step 3: compile and flash onto a ESP32 chip 
 
-Step 4: go to this site
+Step 4: wait until its trained, when its done it should spit out a file named "Espie_1_6_v2.bin" then go to this site
 
 https://espressif.github.io/esptool-js/
 
@@ -103,7 +103,7 @@ also i will make a few files that are named
 
 Espie.ino
 
-Espie_1_6_v2.bin
+param.py (to teach espie to get the bin
 
 Instructions.txt
 
