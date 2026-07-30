@@ -91,7 +91,8 @@ and its extremely efficient!
 
 # Credits to
 
--Elias,Joel, my best friends, idk what they did even to this project but idk i just calling him out
+-Elias,Joel, my best friends, idk what they did even to this project but idk i just calling him out but i did everything in this project
+
 
 # A few things to keep in direct mind
 
