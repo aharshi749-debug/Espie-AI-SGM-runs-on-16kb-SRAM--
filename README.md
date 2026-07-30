@@ -28,6 +28,7 @@ because Espie runs on
 
 -512/520 kb of SRAM and sometimes just an extra 8MB of PSRAM (sometimes may be 4mb or 2mb but will vary)
 
+AND This demonstrates that an AI text-generation system can run locally on a microcontroller with a very small SRAM working set as low as......16kb...
 # What is Espie made out of?
 
 Espie is a AI SGM, not a true llm at all, 
