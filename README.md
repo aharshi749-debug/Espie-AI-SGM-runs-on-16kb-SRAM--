@@ -91,7 +91,7 @@ and its extremely efficient!
 
 # Credits to
 
--Elias, my best friend, idk what he did even to this project but idk i just calling him out
+-Elias,Joel, my best friends, idk what they did even to this project but idk i just calling him out
 
 # A few things to keep in direct mind
 
@@ -117,4 +117,4 @@ Readme
 
 
 
-GO NUTS HEHEHAHAHAHAHAHAHHAH YOU HAVE SOME NEW TECH TO FORK AND BLAH BLAH BLAH
+GO NUTS HEHEHAHAHAHAHAHAHHAH YOU HAVE SOME NEW TECH TO FORK (with my permission) AND BLAH BLAH BLAH
