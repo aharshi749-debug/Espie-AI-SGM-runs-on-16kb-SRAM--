@@ -103,11 +103,11 @@ Small model inference
  ↓
 Sampling
  ↓
-Output  (I HATE COPY AND PASTING ↓ )
+Output  (I HATE COPY AND PASTING "↓" HELP!)
 
 # Credits to
 
--Elias,Joel, my best friends, idk what they did even to this project but idk i just calling him out but i did everything in this project
+-Elias, Joel, my best friends, idk what they did even to this project but idk i just calling him out but i did everything in this project
 
 
 # A few things to keep in direct mind
@@ -122,7 +122,7 @@ also i will make a few files that are named
 Benchmarks and technical information here
 
 Hardware:
-- ESP32-S3
+- CPU: ESP32-S3
 - Test board: LILYGO T-Display S3
 
 Memory:
