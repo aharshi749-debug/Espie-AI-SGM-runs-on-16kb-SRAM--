@@ -51,7 +51,7 @@ the only thing what makes Espie similar to an LLM , is that it just uses tempera
 
 
 
-# How to setup Espie
+# QuickStart/Setup for Espie
 
 Step 1: Train Espie by downloading the py and make sure having PyTorch installed
 
