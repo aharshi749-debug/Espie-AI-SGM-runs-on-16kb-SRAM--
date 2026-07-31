@@ -57,9 +57,9 @@ Step 1: Train Espie by downloading the py and make sure having PyTorch installed
 
 Step 2: Copy the ino file into arduino ide
 
-Step 3: compile and flash onto a ESP32 chip 
+Step 3: Compile and flash onto a ESP32 chip 
 
-Step 4: wait until its trained, when its done it should spit out a file named "Espie_1_6_v2m.bin" then go to this site
+Step 4: Start training the py file, wait until its trained, when its done it should spit out a file named "Espie_1_6_v2m.bin" then go to this site
 
 https://espressif.github.io/esptool-js/
 
