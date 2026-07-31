@@ -149,8 +149,11 @@ ESPIE COMMAND LINE CENTER V1.0
 2: Persist User Data?   (y/n)
 3: Erase User Data (y/n)
 4: Corpus/Data Dump  (y/n)
+5: Dump Espie's Information (y/n)
+6: Check if binary/Espie_1_6m_v2.bin is ok and at 0x3A0000
 Format; Type the corresponding number to what you want to do then write Y or N (yes or no) to execute the action, please make sure if you do the Data Dump, DO NOT Release the following data online, if you need more legal notices please check the github repo at "https://github.com/aharshi749-debug/Espie-AI-SGM-runs-on-1kb-SRAM--"  And click on the LICENSE item to read the rest
 Type EXIT to resume and go back to your normal chat...
+
 Espie\User>>>>
 
 
