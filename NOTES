@@ -9,7 +9,9 @@ and a few more things like
 -english
 -reading
 then i wont do like how LLMs does it
-ill just shove a Script Generator that can generate paragraphs/sentences and actually parse intent and actually give a locial output back towards you, this signifigantly changes things because its way more different BUT i am keeping the temperature sampling to make sure it can actually give a somwhat varied responses and not a parrot-like response
+ill just shove a Script Generator that can generate paragraphs/sentences and actually parse intent and actually give a locial output
+back towards you, this signifigantly changes things because its way more different BUT i am keeping the temperature sampling to make sure it can actually give a 
+somwhat varied responses and not a parrot-like response
 
 
 
