@@ -127,10 +127,10 @@ no real GPU at all, and a weird MCU Cpu thats commonly called the ESP32S3 (Commo
 CURRENT IMPLEMENTATIONS THAT ARE MISSING
 1.58 bit ternary (i am going to add this later...)
 "deep context" and some other stuff
-
+========================================================================================================================
 WARNING, FROM THIS SPECIFIC LINE, FROM THIS POINT ON, THE DATA HERE ARE THEORIZED AND ARE UNOFFICIAL PLANS AND NOTICES
 IF THE ICON "@" is seen THERE IS A GOOD CHANCE IT WILL BE Implemented
-
+========================================================================================================================
 
 i am planning to add a WIFI hybrid system for Espie V2.1  where if Espie's internal Corpus does NOT contain the data/internal
 set where the user asks something espie doesnt know, it will surf the web in order to find out directly what the user requests then it will
