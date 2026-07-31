@@ -94,11 +94,12 @@ and the modern LLMs are bloated (IN THE SENSE OF WHAT IT NEEDS TO RUN, E.G TERAB
 -water cooling
 which raises the price of RAM, GPU  and makes the environment worser aswell
 
-Espie runs on 16kb of ram and not 2TB of Ram   ( two terabytes of ram is 2,147,483,6482,147,483,648 KB,)
+Espie runs on 16kb of ram and not 2TB of Ram 
 no real GPU at all, and a weird MCU Cpu thats commonly called the ESP32S3 (Commonly the XTENSA LX7)
 
-
-
+CURRENT IMPLEMENTATIONS THAT ARE MISSING
+1.58 bit ternary (i am going to add this later...)
+"deep context" and some other stuff
 
 WARNING, FROM THIS SPECIFIC LINE, FROM THIS POINT ON, THE DATA HERE ARE THEORIZED AND ARE UNOFFICIAL PLANS AND NOTICES
 IF THE ICON "@" is seen THERE IS A GOOD CHANCE IT WILL BE Implemented
