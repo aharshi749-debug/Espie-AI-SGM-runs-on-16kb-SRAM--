@@ -23,8 +23,6 @@ Time: 12:48
 Dump starts after this small line.
 =======================================================     
 
-
-
 1.6 million paramaters
 teaching the following
 -cognitive tasks
@@ -36,9 +34,7 @@ and a few more things like
 -english
 -reading
 then i wont do like how LLMs does it
-ill just shove a Script Generator that can generate paragraphs/sentences and actually parse intent and actually give a locial output
-back towards you, this signifigantly changes things because its way more different BUT i am keeping the temperature sampling to make sure it can actually give a 
-somwhat varied responses and not a parrot-like response
+ill just shove a Script Generator that can generate paragraphs/sentences and actually parse intent and actually give a locial output back towards you, this signifigantly changes things because its way more different BUT i am keeping the temperature sampling to make sure it can actually give a somwhat varied responses and not a parrot-like response
 
 
 
@@ -121,16 +117,15 @@ and the modern LLMs are bloated (IN THE SENSE OF WHAT IT NEEDS TO RUN, E.G TERAB
 -water cooling
 which raises the price of RAM, GPU  and makes the environment worser aswell
 
-Espie runs on 16kb of ram and not 2TB of Ram 
+Espie runs on 16kb of ram and not 2TB of Ram   ( two terabytes of ram is 2,147,483,6482,147,483,648 KB,)
 no real GPU at all, and a weird MCU Cpu thats commonly called the ESP32S3 (Commonly the XTENSA LX7)
 
-CURRENT IMPLEMENTATIONS THAT ARE MISSING
-1.58 bit ternary (i am going to add this later...)
-"deep context" and some other stuff
-========================================================================================================================
+
+
+
 WARNING, FROM THIS SPECIFIC LINE, FROM THIS POINT ON, THE DATA HERE ARE THEORIZED AND ARE UNOFFICIAL PLANS AND NOTICES
 IF THE ICON "@" is seen THERE IS A GOOD CHANCE IT WILL BE Implemented
-========================================================================================================================
+
 
 i am planning to add a WIFI hybrid system for Espie V2.1  where if Espie's internal Corpus does NOT contain the data/internal
 set where the user asks something espie doesnt know, it will surf the web in order to find out directly what the user requests then it will
@@ -140,21 +135,94 @@ parse,think,decide and then paste a custom result and not data raw text dump int
 i am planning to add a Command Line panel later @
 now here is how this panel could potentially work@
 
-once you write "CMD" it would potentially spit these lines out
+once you write "CMD" it would probably more like possibly output the following after it loads specifc assets.
 
 
-ESPIE COMMAND LINE CENTER V1.0
+Admin Mode Loading... 
+
+ECCM - Espie Configuration & Control Menu
+Starting Espie system assets...
+{=====================} 100%
+
+Success. ECCM has loaded.
+
+System: ESP32 - Detecting...
+Espie Admin Command Panel v2.1
 (c) Aharshi Deb, All rights reserved
-1: WIFI   (y/n)
-2: Persist User Data?   (y/n)
-3: Erase User Data (y/n)
-4: Corpus/Data Dump  (y/n)
-5: Dump Espie's Information (y/n)
-6: Check if binary/Espie_1_6m_v2.bin is ok and at 0x3A0000
-Format; Type the corresponding number to what you want to do then write Y or N (yes or no) to execute the action, please make sure if you do the Data Dump, DO NOT Release the following data online, if you need more legal notices please check the github repo at "https://github.com/aharshi749-debug/Espie-AI-SGM-runs-on-1kb-SRAM--"  And click on the LICENSE item to read the rest
-Type EXIT to resume and go back to your normal chat...
 
-Espie\User>>>>
+1: Wi-Fi (Y/N)
+2: Wi-Fi Name & Password (Type C to change, e.g. 2:C)
+3: Wi-Fi Configuration (Y/N)
+4: Espie System Dump (Y/N)
+5: Point System to Another Model Path
+6: ERASE/REPLACE PARTITIONS FOR SYSTEM FILES
+7: Allocate More/Less SRAM (Minimum: 4 KB)
+8: Move System Files
+9: Point System Files to Another Location
+
+Command Format:
+Enter the corresponding command number, followed by Y or N where requested.
+
+WARNING: System-file and memory-management commands may affect Espie's operation. Verify your selection before proceeding.
+
+Type EXIT to leave Admin Mode and return to normal chat.
+
+Current Model Path:
+0x3A0000\Espie\SysAdminPanel
+
+Espie:>>>
 
 
-this is experimental and may not exist when Espie v2.1 comes out
+
+
+If it was to fail it would print
+
+Admin Mode Loading
+ECCM - Espie Configuration & Control Menu
+Starting Espie system assets...
+{=========              } 38%
+SYSTEM ERROR!
+CRITICAL!
+ERROR: there was an error loading the SysAdmin Files for configurations and other major changes...
+ERROR CODE: 0x600000, missing Espie\SysAdminPanel\____.
+Do you want to fix this issue or go back towards the main chat? (Y/N)
+
+
+
+if you were to repair it then
+
+Repair option selected.
+Please download the latest Espie.ino firmware from the GitHub repository and reflash your ESP32.
+Reflashing the firmware should restore the missing ECCM Admin Panel files.
+Espie Admin Panel recovery cannot continue from this installation.
+Type EXIT to return to the main chat.
+We are so sorry for the inconvinience, dear User.
+
+
+
+
+if selecting the ERASE/PARTITON command it would print something similar to
+
+
+ESPIE FLASH PARTITION MANAGER
+Flash detected: 8 MB
+Range: 0x000000 - 0x7FFFFF
+
+[BOOT 1] [PART 2] [NVS 3] [FIRMWARE 4] [ESPIE MODEL 5] [UNALLOCATED]
+
+Please select the number to further edit them.
+
+Espie:>>>
+
+
+
+
+if there was a RAM issue then the following might happen
+
+Hi the- WARNING: INTERCEPTION WITH RAM 
+Error: Ram in DRAM is too low. 
+allocation of 0.005 KB allocated. 
+Espie used 1.4kb 0.05<1.4 KB sram 
+General Random Acess Memory Fault Protection Sub-System: We have halted your conversation because your RAM is too low. 
+Halting chat... 
+HALT: 0x10000 program has halted. type any key into serial monitor to end the program.
